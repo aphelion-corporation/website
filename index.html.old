@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+  <title>Welcome to the Aphelion Corporation</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+	<div id="placeholder_base">
+		<div id="placeholder_logo">
+		<img name="placeholder_logo" src="img/logo/APHN_White.png" width="600px" height="600px">
+		</div>
+		<div id="placeholder_text">
+		Sorry! Still not quite done here yet.
+		</div>
+		<div id="placeholder_socialbar">
+			<a href="https://discord.gg/QUzrNWd/" target="_blank"><img src="img/ico/ico_discord.png" height="50px" width="50px"></a>
+			<a href="https://www.youtube.com/channel/UCWdTyvRzwZLNGxDLdnD_Olg" target="_blank"><img src="img/ico/ico_youtube.png" height="50px" width="50px"></a>
+		</div>
+		<iframe id="live_discord" src="https://discordapp.com/widget?id=501914241612382248&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+	</div>
+</body>

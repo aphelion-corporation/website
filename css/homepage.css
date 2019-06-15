@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+/* MAIN */
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	font-size: 15px;
+	background-image: url("../img/bg/space_bg.png");
+	background-color: black;
+	background-attachment:fixed;
+	background-size: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+}
+.discord_body {
+	background-image: url("../img/bg/space_bg_discord.png");
+}
+body iframe {
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+}
+.discord_widget {
+	padding: 150px;
+	width: 50%;
+	height: 1200px;
+}
+
+
+
+/* HEADER */
+
+.header {
+	height: 100px;
+	width: 100%;
+	background-color:#0F0F0F;
+	position: fixed;
+	top: 0px;
+	left: 0;
+	right: 0;
+}
+.header_inner {
+	height: 100%;
+	width: 1000px;
+	display: block;
+	margin: 0 auto;
+}
+.header_logo {
+	height: 100%;
+	display: table;
+	float: left;
+	vertical-align: middle;
+}
+.header_buttons {
+	float: right;
+	height: 100%;
+}
+.header_buttons a {
+	text-decoration: none;
+	float: right;
+	display: table;
+	height: 100%;
+	padding: 0px 20px;
+}
+.header_buttons a li {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+
+
+
+
+/* HERO */
+
+.hero {
+	width: 100%;
+	background-image: url("../img/bg/home_bg.png");
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	height: 600px;
+	font-size: 12px;
+}
+.hero h1 {
+	font-size: 20px;
+	font-weight: 5;
+}
+.hero img {
+	vertical-align: middle;
+	display: block;
+	height: 100%;
+	width: auto;
+	margin: auto;
+}
+
+
+
+
+
+/* YOUTUBE VIDEO */
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 2350px) {
+	.header_inner {
+		width: 2400px;
+	}
+	.header_buttons {
+		padding: 0px 50px;
+	}
+}
+@media (max-width: 1000px) {
+	body {
+		background-image: url("../img/bg/space_bg.png");
+	}
+	.header_inner {
+		width: 768px
+	}
+	.header_buttons {
+		padding: 0px 10px;
+	}
+}
+@media (max-width: 768px) {
+	.header {
+	}
+	.header_inner {
+		width: 500px
+	}
+	.header_buttons {
+		padding: 0px 5px;
+	}
+}

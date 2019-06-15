@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content {
+	height: 10000px;
+}
+.header {
+	height: 75px;
+	background: #f0f0f0;
+	width: 100%;
+	position: fixed;
+}
+
+body {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 11px;
+	color: white;
+	text-align: center;
+	padding-top: 0px;
+	background-image: url("../img/bg/space_bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-color: #000000;
+	height: 100%;
+}
+#placeholder_socialbar {
+	padding: 30px;
+	word-spacing: 10px;
+}
