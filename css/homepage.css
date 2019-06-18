@@ -43,7 +43,7 @@ body iframe {
 /* HEADER */
 
 .header {
-	height: 100px;
+	height: 75px;
 	width: 100%;
 	background-color:#0F0F0F;
 	position: fixed;
@@ -107,32 +107,29 @@ body iframe {
 
 
 
-/* WELCOME AND TRIO */
+/* LANDING */
 
-.welcome {
-	padding-top: 50px;
-	padding-bottom: 20px;
-	padding-right: 100px;
-	background: #FFFFFF;
+.landing {
 	background-image: url("../img/bg/hexagon_bg.png");
 	background-size: cover;
 	background-attachment: fixed;
-	width: auto;
+	float: none;
+}
+#welcome {
+	font-size: 20px;
+	padding-top: 3%;
+	padding-bottom: 2%;
+	padding-right: 10%;
+	padding-left: 4%;
 	display: inline-block;
 }
-.welcome h1 {
-	padding-left: 50px;
-	padding-top: 50px;
+#welcome img {
+	float: left;
+	width: 51%;
+}
+#welcome h1 {
 	font-size: 50px;
 }
-.welcome p {
-	font-size: 20px;
-}
-#welcome_bike {
-	float: left;
-}
-
-
 
 
 
@@ -157,23 +154,25 @@ body iframe {
 	.header_buttons {
 		padding: 0px 10px;
 	}
-	.welcome {
-		display: block;
+	#welcome {
+		font-size: 12px;
 	}
-	.welcome p {
-		padding-left: 100px;
-	}
-	.welcome h1 {
-		padding-left: 50px;
+	#welcome h1 {
+		font-size: 30px;
 	}
 }
 @media (max-width: 768px) {
 	.header {
 	}
 	.header_inner {
-		width: 500px
+		width: 600px;
 	}
-	.header_buttons {
-		padding: 0px 5px;
+	#welcome {
+		margin: 0 auto;
+		width: 100%;
+		float: none;
+	}
+	#welcome img {
+		float: none;
 	}
 }

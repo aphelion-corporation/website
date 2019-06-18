@@ -1,0 +1,13 @@
+<!-- changelog for GREETING branch -->
+
+// 0.1 //
+
+Additions and Removals:
+*removed class="welcome".
+*added class="greeting".
+*added #welcome.
+*added #trio.
+
+Fixes: 
+*fixed issues with max-width:728 @Media query, specifically issues with the header icons and the .greeting section.
+*designed new assets for a 'trio' section within .greeting
